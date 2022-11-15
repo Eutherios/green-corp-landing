@@ -308,7 +308,7 @@
   }
 
   .promo {
-    display: flex;
+    display: flex;  
   }
 
   .promo__image {
@@ -364,6 +364,18 @@
   .promo__text button i {
     font-size: 15px;
     margin-left: 5px;
+  }
+  
+  .about {
+    position: relative;
+  }
+ 
+  .orb-canvas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    right: 0;
   }
 
    /* Планшеты */
